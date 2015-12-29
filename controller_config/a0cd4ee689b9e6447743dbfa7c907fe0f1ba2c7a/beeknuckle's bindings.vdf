@@ -10,11 +10,11 @@
 		"mode"		"four_buttons"
 		"bindings"
 		{
-			"button_A"		"key_press SPACE, Jump"
+			"button_A"		"key_press LEFT_SHIFT"
 			"button_B"		"key_press C"
-			"button_X"		"key_press LEFT_SHIFT"
-			"button_Y"		"key_press Z, Reload/Wall"
-			"button_Y"		"key_press R, Reload/Wall"
+			"button_X"		"key_press Z"
+			"button_X"		"key_press R"
+			"button_Y"		"key_press SPACE"
 		}
 		"settings"
 		{
@@ -57,7 +57,7 @@
 		}
 		"settings"
 		{
-			"sensitivity"		"168"
+			"sensitivity"		"191"
 			"friction"		"1"
 			"friction_vert_scale"		"98"
 			"sensitivity_vert_scale"		"99"
@@ -85,6 +85,7 @@
 			"requires_click"		"0"
 			"hold_repeat_inverval"		"99"
 			"edge_binding_radius"		"24995"
+			"haptic_intensity"		"0"
 		}
 	}
 	"group"
@@ -117,6 +118,10 @@
 	{
 		"id"		"6"
 		"mode"		"joystick_move"
+		"settings"
+		{
+			"output_joystick"		"1"
+		}
 	}
 	"group"
 	{
@@ -203,6 +208,11 @@
 			"haptic_intensity"		"3"
 		}
 	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"mouse_joystick"
+	}
 	"preset"
 	{
 		"id"		"0"
@@ -222,6 +232,7 @@
 			"6"		"joystick inactive"
 			"10"		"joystick active modeshift"
 			"11"		"joystick inactive modeshift"
+			"15"		"joystick inactive"
 			"4"		"left_trigger active"
 			"5"		"right_trigger active"
 		}
@@ -232,12 +243,12 @@
 				"button_escape"		"key_press ESCAPE, Menu"
 				"button_back_left"		"key_press F1"
 				"button_back_right"		"key_press F2"
-				"right_bumper"		"key_press E"
 				"button_menu"		"key_press V"
 				"left_bumper"		"mode_shift right_trackpad 13"
 				"left_bumper"		"mode_shift button_diamond 12"
 				"left_bumper"		"mode_shift joystick 10"
 				"left_bumper"		"mode_shift left_trackpad 14"
+				"right_bumper"		"key_press E"
 			}
 		}
 		"settings"

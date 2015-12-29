@@ -1,9 +1,9 @@
 "controller_mappings"
 {
 	"version"		"2"
-	"title"		"$$$autosave"
+	"title"		"neew"
 	"description"		"This is a good start, but is only setup for the spy for now, and I still need to add something to zoom in and out."
-	"creator"		"76561198067154214"
+	"creator"		"76561198028468235"
 	"group"
 	{
 		"id"		"0"
@@ -12,8 +12,8 @@
 		{
 			"button_A"		"key_press LEFT_SHIFT, Choke + action"
 			"button_B"		"key_press C, Duck"
-			"button_X"		"key_press Q, Roll + back to wall"
-			"button_X"		"key_press Z, Roll + back to wall"
+			"button_X"		"key_press R, Reload/Wall"
+			"button_X"		"key_press Z, Reload/Wall"
 			"button_Y"		"key_press SPACE, Jump"
 		}
 		"settings"
@@ -50,16 +50,16 @@
 		"mode"		"absolute_mouse"
 		"bindings"
 		{
-			"click"		"key_press E, Draw gun"
+			"click"		"key_press Q, Roll"
+			"doubletap"		"key_press B, Zoom"
 			"touch"		"key_press H"
 		}
 		"settings"
 		{
-			"sensitivity"		"715"
-			"haptic_intensity"		"0"
-			"rotation"		"14"
+			"sensitivity"		"189"
+			"rotation"		"12"
 			"friction"		"1"
-			"friction_vert_scale"		"98"
+			"friction_vert_scale"		"121"
 			"sensitivity_vert_scale"		"99"
 			"acceleration"		"3"
 			"mouse_smoothing"		"23"
@@ -175,6 +175,8 @@
 		"bindings"
 		{
 			"click"		"key_press L"
+			"doubletap"		"key_press B"
+			"touch"		"key_press H"
 		}
 		"settings"
 		{
@@ -192,6 +194,8 @@
 		"mode"		"dpad"
 		"bindings"
 		{
+			"dpad_north"		"mouse_wheel SCROLL_UP"
+			"dpad_south"		"mouse_wheel SCROLL_DOWN"
 			"dpad_east"		"mouse_wheel SCROLL_UP"
 			"dpad_west"		"mouse_wheel SCROLL_DOWN"
 			"click"		"key_press B"
@@ -231,11 +235,13 @@
 			"bindings"
 			{
 				"button_escape"		"key_press ESCAPE, Menu"
-				"button_back_right"		"key_press F2, Thermal vision"
-				"button_back_left"		"key_press F1, Night vision"
 				"button_menu"		"key_press V, Camera"
-				"left_bumper"		"key_press V, Camera"
-				"right_bumper"		"key_press B, Zoom"
+				"left_bumper"		"key_press F1, Night Vision"
+				"right_bumper"		"key_press F2, Thermal"
+				"button_back_right"		"mode_shift left_trackpad 14"
+				"button_back_right"		"mode_shift joystick 10"
+				"button_back_right"		"mode_shift button_diamond 12"
+				"button_back_right"		"mode_shift right_trackpad 13"
 			}
 		}
 		"settings"
