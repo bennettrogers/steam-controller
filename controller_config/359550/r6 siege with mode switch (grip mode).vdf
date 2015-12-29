@@ -29,7 +29,6 @@
 		"bindings"
 		{
 			"dpad_north"		"key_press G, Gadget 2"
-			"dpad_south"		"key_press C, Crouch"
 			"dpad_east"		"mouse_button MIDDLE, Gadget 1"
 			"dpad_west"		"key_press 5, Camera"
 		}
@@ -48,6 +47,7 @@
 		"bindings"
 		{
 			"click"		"key_press X, Scan"
+			"click"		"mouse_button RIGHT, Aim/Scan"
 		}
 		"settings"
 		{
@@ -73,7 +73,7 @@
 			"dpad_east"		"key_press D, Move Right"
 			"dpad_west"		"key_press A, Move Left"
 			"edge"		"key_press LEFT_ALT, Walk"
-			"click"		"key_press LEFT_SHIFT, Sprint"
+			"click"		"key_press C, Crouch"
 		}
 		"settings"
 		{
@@ -93,7 +93,7 @@
 		"mode"		"trigger"
 		"bindings"
 		{
-			"edge"		"mouse_button RIGHT, Aim"
+			"edge"		"key_press V, Melee"
 		}
 		"settings"
 		{
@@ -178,7 +178,6 @@
 		"bindings"
 		{
 			"dpad_north"		"key_press Z, Ping"
-			"dpad_south"		"key_press LEFT_CONTROL, Prone"
 			"dpad_east"		"key_press B, Fire Mode"
 			"dpad_west"		"key_press 6, Drone"
 		}
@@ -208,20 +207,40 @@
 		"mode"		"absolute_mouse"
 		"bindings"
 		{
-			"click"		"key_press X, Scan"
-			"touch"		"key_press Z, Ping"
+			"click"		"key_press Z, Ping"
 		}
 		"settings"
 		{
-			"sensitivity"		"274"
-			"rotation"		"12"
+			"sensitivity"		"173"
+			"rotation"		"13"
 			"friction"		"1"
 			"friction_vert_scale"		"149"
 			"sensitivity_vert_scale"		"74"
-			"acceleration"		"2"
+			"acceleration"		"3"
 			"mouse_smoothing"		"25"
 			"doubetap_max_duration"		"371"
 			"mouse_dampening_trigger"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"17"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W"
+			"dpad_south"		"key_press S"
+			"dpad_east"		"key_press D"
+			"dpad_west"		"key_press A"
+			"edge"		"key_press LEFT_ALT, Walk"
+			"click"		"key_press LEFT_CONTROL, Prone"
+		}
+		"settings"
+		{
+			"deadzone"		"819"
+			"edge_binding_radius"		"20599"
+			"edge_binding_invert"		"1"
+			"haptic_intensity"		"0"
 		}
 	}
 	"preset"
@@ -243,6 +262,7 @@
 			"16"		"right_trackpad active modeshift"
 			"3"		"joystick active"
 			"15"		"joystick inactive"
+			"17"		"joystick active modeshift"
 			"4"		"left_trigger active"
 			"11"		"left_trigger active modeshift"
 			"5"		"right_trigger active"
@@ -252,15 +272,15 @@
 		{
 			"bindings"
 			{
+				"button_back_left"		"key_press LEFT_SHIFT, Run"
 				"button_escape"		"key_press ESCAPE, Menu"
 				"button_menu"		"key_press TAB, Scoreboard"
 				"left_bumper"		"key_press Q, Lean"
 				"right_bumper"		"key_press E, Lean"
-				"button_back_right"		"mode_shift left_trackpad 13"
-				"button_back_right"		"mode_shift button_diamond 14"
 				"button_back_right"		"mode_shift right_trackpad 16"
-				"button_back_right"		"mode_shift left_trigger 11"
-				"button_back_left"		"key_press V, Melee"
+				"button_back_right"		"mode_shift button_diamond 14"
+				"button_back_right"		"mode_shift left_trackpad 13"
+				"button_back_right"		"mode_shift joystick 17"
 			}
 		}
 		"settings"
