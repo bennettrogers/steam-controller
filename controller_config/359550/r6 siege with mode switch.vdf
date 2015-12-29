@@ -1,0 +1,243 @@
+"controller_mappings"
+{
+	"version"		"2"
+	"title"		"R6: Siege with mode switch"
+	"description"		"This configuration assumes the default keyboard bindings. Right bumper activates a mode switch to get to less critical functions. Gyro aim is (currently) disabled. I will likely continue to tweak this config as I learn the game. My in-game sensitivity settings are currently at 10 for regular and 40 for aiming. \"Walk\" is set to \"Hold\", all others are set to \"Toggle\". This allows Walk to be used when the joystick is pushed slightly, and normal movement to be used when the stick is pushed to the edge."
+	"creator"		"76561198028468235"
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_A"		"key_press SPACE, Navigate"
+			"button_B"		"key_press R, Reload"
+			"button_X"		"key_press F, Interact"
+			"button_Y"		"key_press PERIOD, Weapon"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"button_size"		"17994"
+			"button_dist"		"19994"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press G, Gadget 2"
+			"dpad_south"		"key_press C, Crouch"
+			"dpad_east"		"mouse_button MIDDLE, Gadget 1"
+			"dpad_west"		"key_press 5, Camera"
+			"click"		"key_press LEFT_CONTROL, Prone"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"layout"		"0"
+			"hold_repeat_inverval"		"99"
+			"deadzone"		"19830"
+			"edge_binding_radius"		"24996"
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press X, Scan"
+		}
+		"settings"
+		{
+			"sensitivity"		"267"
+			"rotation"		"13"
+			"friction"		"1"
+			"friction_vert_scale"		"149"
+			"sensitivity_vert_scale"		"74"
+			"acceleration"		"2"
+			"mouse_smoothing"		"26"
+			"doubetap_max_duration"		"320"
+			"mouse_dampening_trigger"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W, Move Forward"
+			"dpad_south"		"key_press S, Move Back"
+			"dpad_east"		"key_press D, Move Right"
+			"dpad_west"		"key_press A, Move Left"
+			"edge"		"key_press LEFT_ALT, Walk"
+			"click"		"key_press LEFT_SHIFT, Sprint"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"hold_repeat_inverval"		"99"
+			"deadzone"		"0"
+			"edge_binding_radius"		"29392"
+			"edge_binding_invert"		"1"
+			"haptic_intensity"		"0"
+			"analog_emulation_period"		"25"
+			"analog_emulation_duty_cycle_pct"		"13"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"key_press V, Melee"
+			"edge"		"key_press V, Melee"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"9998"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"mouse_button LEFT, Fire"
+			"edge"		"mouse_button LEFT, Fire"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"sensitivity"		"83"
+			"haptic_intensity"		"0"
+			"sensitivity_vert_scale"		"79"
+			"mouse_smoothing"		"19"
+			"mouse_dampening_trigger"		"3"
+			"gyro_axis"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"four_buttons"
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"dpad"
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"absolute_mouse"
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"dpad"
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"trigger"
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"touch_menu"
+		"settings"
+		{
+			"touch_menu_button_count"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_south"		"key_press Z, Ping"
+			"dpad_east"		"key_press B, Fire Mode"
+			"dpad_west"		"key_press 6, Drone"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"layout"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_Y"		"key_press 7, Vote"
+		}
+	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"joystick_move"
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		""
+		"group_source_bindings"
+		{
+			"0"		"button_diamond active"
+			"8"		"button_diamond inactive"
+			"9"		"button_diamond inactive"
+			"10"		"button_diamond inactive modeshift"
+			"14"		"button_diamond active modeshift"
+			"1"		"left_trackpad active"
+			"7"		"left_trackpad inactive"
+			"12"		"left_trackpad inactive modeshift"
+			"13"		"left_trackpad active modeshift"
+			"2"		"right_trackpad active"
+			"3"		"joystick active"
+			"15"		"joystick inactive"
+			"4"		"left_trigger active"
+			"11"		"left_trigger active modeshift"
+			"5"		"right_trigger active"
+			"6"		"gyro inactive"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"button_escape"		"key_press ESCAPE, Menu"
+				"button_menu"		"key_press TAB, Scoreboard"
+				"button_back_left"		"mouse_button RIGHT, Aim"
+				"left_bumper"		"key_press Q, Lean"
+				"right_bumper"		"key_press E, Lean"
+				"button_back_right"		"mode_shift left_trackpad 13"
+				"button_back_right"		"mode_shift button_diamond 14"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+}

@@ -1,0 +1,196 @@
+"controller_mappings"
+{
+	"version"		"2"
+	"title"		"Rainbow Six Siege with gyro aim and gyro lean always on"
+	"description"		"Use ingame sensitivity 15 and 40 aim down sights sensitivity. Left trigger soft pull is walk button and full pull is prone, face buttons and joystick are gadgets/grenades, A button is interact, right pad click is Melee"
+	"creator"		"76561197970863066"
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_A"		"key_press F, Jump"
+			"button_B"		"key_press 6, Change Stance"
+			"button_X"		"key_press G, l"
+			"button_Y"		"key_press 5, Use/Pick Up Weapon"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"haptic_intensity"		"3"
+			"button_size"		"17990"
+			"button_dist"		"19990"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W, Swap Weapon"
+			"dpad_south"		"key_press S, Night Vision/2nd Inventory"
+			"dpad_east"		"key_press D, Weapon Attachment"
+			"dpad_west"		"key_press A, Support Equipment"
+			"click"		"key_press LEFT_SHIFT"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"hold_repeat_inverval"		"99"
+			"deadzone"		"5000"
+			"edge_binding_radius"		"24996"
+			"haptic_intensity"		"3"
+			"analog_emulation_period"		"29"
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press V, Melee"
+		}
+		"settings"
+		{
+			"sensitivity"		"338"
+			"haptic_intensity"		"3"
+			"rotation"		"14"
+			"friction"		"3"
+			"sensitivity_vert_scale"		"64"
+			"doubetap_max_duration"		"320"
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press 2, Move Forward"
+			"dpad_south"		"key_press 4, Move Back"
+			"dpad_east"		"key_press 3, Move Right"
+			"dpad_west"		"key_press 1, Move Left"
+			"click"		"key_press B, Sprint"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"24995"
+			"haptic_intensity"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"key_press LEFT_CONTROL"
+			"edge"		"key_press LEFT_ALT, Jump"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"13276"
+			"haptic_intensity"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"mouse_button LEFT"
+			"edge"		"mouse_button RIGHT, Fire Weapon"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"9999"
+			"haptic_intensity"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"dpad_west"		"key_press Q"
+			"dpad_east"		"key_press E"
+		}
+		"settings"
+		{
+			"sensitivity"		"143"
+			"invert_y"		"1"
+			"haptic_intensity"		"0"
+			"sensitivity_vert_scale"		"99"
+			"mouse_smoothing"		"25"
+			"gyro_button"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"joystick_move"
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"sensitivity"		"95"
+			"invert_y"		"1"
+			"haptic_intensity"		"0"
+			"gyro_button"		"5"
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"trigger"
+		"settings"
+		{
+			"haptic_intensity"		"3"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		""
+		"group_source_bindings"
+		{
+			"0"		"button_diamond active"
+			"1"		"left_trackpad active"
+			"2"		"right_trackpad active"
+			"3"		"joystick active"
+			"7"		"joystick inactive"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+			"9"		"right_trigger active modeshift"
+			"6"		"gyro active"
+			"8"		"gyro active modeshift"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"button_back_right"		"key_press R, Reload"
+				"button_escape"		"key_press ESCAPE, Menu"
+				"button_menu"		"key_press TAB, Objectives"
+				"button_back_left"		"key_press C, crouch"
+				"left_bumper"		"key_press SPACE, Tactical Equipment"
+				"right_bumper"		"mouse_button LEFT"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+}

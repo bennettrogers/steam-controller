@@ -1,0 +1,247 @@
+"controller_mappings"
+{
+	"version"		"2"
+	"title"		"beeknuckle's Bindings"
+	"description"		"Description"
+	"creator"		"76561198028468235"
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_A"		"key_press SPACE, Jump"
+			"button_B"		"key_press C"
+			"button_X"		"key_press LEFT_SHIFT"
+			"button_Y"		"key_press Z, Reload/Wall"
+			"button_Y"		"key_press R, Reload/Wall"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"button_size"		"17994"
+			"button_dist"		"19994"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press 1"
+			"dpad_south"		"key_press 4"
+			"dpad_east"		"key_press 3"
+			"dpad_west"		"key_press 2, Gadget 2"
+			"click"		"key_press B"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"layout"		"0"
+			"hold_repeat_inverval"		"99"
+			"deadzone"		"19010"
+			"edge_binding_radius"		"24996"
+			"haptic_intensity"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press Q"
+			"doubletap"		"key_press B"
+			"touch"		"key_press H"
+		}
+		"settings"
+		{
+			"sensitivity"		"168"
+			"friction"		"1"
+			"friction_vert_scale"		"98"
+			"sensitivity_vert_scale"		"99"
+			"acceleration"		"3"
+			"mouse_smoothing"		"23"
+			"doubetap_max_duration"		"271"
+			"mouse_dampening_trigger"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W, Move Forward"
+			"dpad_south"		"key_press S, Move Back"
+			"dpad_east"		"key_press D, Move Right"
+			"dpad_west"		"key_press A, Move Left"
+			"click"		"mouse_button MIDDLE, Fire Mode / Move Speed"
+			"click"		"key_press F, Fire Mode / Move Speed"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"24995"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"edge"		"mouse_button RIGHT"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"edge"		"mouse_button LEFT"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"joystick_move"
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"mouse_joystick"
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"joystick_move"
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"joystick_camera"
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W"
+			"dpad_south"		"key_press S"
+			"dpad_east"		"key_press D"
+			"dpad_west"		"key_press A"
+			"click"		"key_press T"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"51"
+		}
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"four_buttons"
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_A"		"key_press 4"
+			"button_B"		"key_press 3"
+			"button_X"		"key_press 2"
+			"button_Y"		"key_press 1"
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press L"
+		}
+		"settings"
+		{
+			"sensitivity"		"174"
+			"rotation"		"12"
+			"friction"		"1"
+			"friction_vert_scale"		"124"
+			"acceleration"		"3"
+			"mouse_smoothing"		"23"
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_east"		"mouse_wheel SCROLL_UP"
+			"dpad_west"		"mouse_wheel SCROLL_DOWN"
+			"click"		"key_press B"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"layout"		"0"
+			"deadzone"		"19009"
+			"haptic_intensity"		"3"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		""
+		"group_source_bindings"
+		{
+			"0"		"button_diamond active"
+			"12"		"button_diamond active modeshift"
+			"1"		"left_trackpad active"
+			"14"		"left_trackpad active modeshift"
+			"2"		"right_trackpad active"
+			"7"		"right_trackpad inactive"
+			"8"		"right_trackpad inactive"
+			"9"		"right_trackpad inactive"
+			"13"		"right_trackpad active modeshift"
+			"3"		"joystick active"
+			"6"		"joystick inactive"
+			"10"		"joystick active modeshift"
+			"11"		"joystick inactive modeshift"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"button_escape"		"key_press ESCAPE, Menu"
+				"button_back_left"		"key_press F1"
+				"button_back_right"		"key_press F2"
+				"right_bumper"		"key_press E"
+				"button_menu"		"key_press V"
+				"left_bumper"		"mode_shift right_trackpad 13"
+				"left_bumper"		"mode_shift button_diamond 12"
+				"left_bumper"		"mode_shift joystick 10"
+				"left_bumper"		"mode_shift left_trackpad 14"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+}
