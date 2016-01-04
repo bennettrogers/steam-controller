@@ -121,7 +121,7 @@
 		"mode"		"absolute_mouse"
 		"settings"
 		{
-			"sensitivity"		"52"
+			"sensitivity"		"14"
 			"haptic_intensity"		"0"
 			"sensitivity_vert_scale"		"79"
 			"mouse_smoothing"		"19"
@@ -266,7 +266,7 @@
 			"4"		"left_trigger active"
 			"11"		"left_trigger active modeshift"
 			"5"		"right_trigger active"
-			"6"		"gyro inactive"
+			"6"		"gyro active"
 		}
 		"switch_bindings"
 		{
