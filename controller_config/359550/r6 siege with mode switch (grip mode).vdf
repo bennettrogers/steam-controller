@@ -10,10 +10,10 @@
 		"mode"		"four_buttons"
 		"bindings"
 		{
-			"button_A"		"key_press SPACE, Navigate"
-			"button_B"		"key_press R, Reload"
-			"button_X"		"key_press F, Interact"
-			"button_Y"		"key_press PERIOD, Weapon"
+			"button_a"		"key_press SPACE, Navigate"
+			"button_b"		"key_press R, Reload"
+			"button_x"		"key_press F, Interact"
+			"button_y"		"key_press PERIOD, Weapon"
 		}
 		"settings"
 		{
@@ -121,7 +121,7 @@
 		"mode"		"absolute_mouse"
 		"settings"
 		{
-			"sensitivity"		"14"
+			"sensitivity"		"13"
 			"haptic_intensity"		"0"
 			"sensitivity_vert_scale"		"79"
 			"mouse_smoothing"		"19"
@@ -193,7 +193,7 @@
 		"mode"		"four_buttons"
 		"bindings"
 		{
-			"button_Y"		"key_press 7, Vote"
+			"button_y"		"key_press 7, Vote"
 		}
 	}
 	"group"
