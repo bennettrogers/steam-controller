@@ -10,10 +10,10 @@
 		"mode"		"four_buttons"
 		"bindings"
 		{
-			"button_a"		"key_press SPACE, Navigate"
-			"button_b"		"key_press R, Reload"
-			"button_x"		"key_press F, Interact"
-			"button_y"		"key_press PERIOD, Weapon"
+			"button_A"		"key_press SPACE, Navigate"
+			"button_B"		"key_press R, Reload"
+			"button_X"		"key_press F, Interact"
+			"button_Y"		"key_press PERIOD, Weapon"
 		}
 		"settings"
 		{
@@ -29,15 +29,17 @@
 		"bindings"
 		{
 			"dpad_north"		"key_press G, Gadget 2"
+			"dpad_south"		"key_press U, Push to Talk"
 			"dpad_east"		"mouse_button MIDDLE, Gadget 1"
 			"dpad_west"		"key_press 5, Camera"
 		}
 		"settings"
 		{
 			"layout"		"0"
-			"hold_repeat_inverval"		"99"
 			"deadzone"		"9999"
 			"edge_binding_radius"		"24996"
+			"haptic_intensity"		"0"
+			"analog_emulation_period"		"29"
 		}
 	}
 	"group"
@@ -46,17 +48,17 @@
 		"mode"		"absolute_mouse"
 		"bindings"
 		{
-			"click"		"key_press X, Scan"
-			"click"		"mouse_button RIGHT, Aim/Scan"
+			"click"		"key_press X, Melee/Scan"
+			"click"		"key_press V, Melee/Scan"
 		}
 		"settings"
 		{
-			"sensitivity"		"166"
+			"sensitivity"		"338"
+			"trackball"		"0"
+			"haptic_intensity"		"0"
 			"rotation"		"13"
-			"friction"		"1"
 			"friction_vert_scale"		"149"
 			"sensitivity_vert_scale"		"73"
-			"acceleration"		"3"
 			"mouse_smoothing"		"25"
 			"doubetap_max_duration"		"367"
 			"mouse_dampening_trigger"		"3"
@@ -93,7 +95,7 @@
 		"mode"		"trigger"
 		"bindings"
 		{
-			"edge"		"key_press V, Melee"
+			"edge"		"mouse_button RIGHT, Aim"
 		}
 		"settings"
 		{
@@ -121,10 +123,10 @@
 		"mode"		"absolute_mouse"
 		"settings"
 		{
-			"sensitivity"		"13"
+			"sensitivity"		"41"
 			"haptic_intensity"		"0"
-			"sensitivity_vert_scale"		"79"
-			"mouse_smoothing"		"19"
+			"sensitivity_vert_scale"		"88"
+			"mouse_smoothing"		"40"
 			"mouse_dampening_trigger"		"3"
 			"gyro_axis"		"1"
 		}
@@ -193,7 +195,7 @@
 		"mode"		"four_buttons"
 		"bindings"
 		{
-			"button_y"		"key_press 7, Vote"
+			"button_Y"		"key_press 7, Vote"
 		}
 	}
 	"group"
@@ -211,7 +213,7 @@
 		}
 		"settings"
 		{
-			"sensitivity"		"173"
+			"sensitivity"		"171"
 			"rotation"		"13"
 			"friction"		"1"
 			"friction_vert_scale"		"149"
