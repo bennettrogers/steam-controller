@@ -1,7 +1,7 @@
 "controller_mappings"
 {
 	"version"		"2"
-	"title"		"R6: Bennett"
+	"title"		"R6: Siege"
 	"description"		"#SettingsController_AutosaveDescription"
 	"creator"		"76561198028468235"
 	"group"
@@ -163,6 +163,9 @@
 		{
 			"click"		"key_press G, Gadget 2"
 		}
+		"gameactions"
+		{
+		}
 	}
 	"group"
 	{
@@ -245,6 +248,18 @@
 			"haptic_intensity"		"0"
 		}
 	}
+	"group"
+	{
+		"id"		"18"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"mouse_button MIDDLE, Gadget 1"
+		}
+		"gameactions"
+		{
+		}
+	}
 	"preset"
 	{
 		"id"		"0"
@@ -268,6 +283,7 @@
 			"4"		"left_trigger active"
 			"11"		"left_trigger active modeshift"
 			"5"		"right_trigger active"
+			"18"		"right_trigger active modeshift"
 			"6"		"gyro active"
 		}
 		"switch_bindings"
@@ -283,6 +299,8 @@
 				"button_back_right"		"mode_shift button_diamond 14"
 				"button_back_right"		"mode_shift left_trackpad 13"
 				"button_back_right"		"mode_shift joystick 17"
+				"button_back_right"		"mode_shift left_trigger 11"
+				"button_back_right"		"mode_shift right_trigger 18"
 			}
 		}
 		"settings"
