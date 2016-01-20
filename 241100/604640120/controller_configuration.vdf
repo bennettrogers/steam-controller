@@ -213,12 +213,12 @@
 		}
 		"settings"
 		{
-			"sensitivity"		"171"
+			"sensitivity"		"345"
+			"trackball"		"0"
+			"haptic_intensity"		"0"
 			"rotation"		"13"
-			"friction"		"1"
 			"friction_vert_scale"		"149"
 			"sensitivity_vert_scale"		"74"
-			"acceleration"		"3"
 			"mouse_smoothing"		"25"
 			"doubetap_max_duration"		"371"
 			"mouse_dampening_trigger"		"3"

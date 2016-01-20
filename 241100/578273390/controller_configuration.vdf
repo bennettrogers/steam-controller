@@ -1,0 +1,292 @@
+"controller_mappings"
+{
+	"version"		"2"
+	"title"		"R6: Bennett"
+	"description"		"#SettingsController_AutosaveDescription"
+	"creator"		"76561198028468235"
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_a"		"key_press SPACE, Navigate"
+			"button_B"		"key_press R, Reload"
+			"button_X"		"key_press F, Interact"
+			"button_y"		"key_press PERIOD, Weapon"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"button_size"		"17994"
+			"button_dist"		"19994"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press G, Gadget 2"
+			"dpad_south"		"key_press U, Push to Talk"
+			"dpad_east"		"mouse_button MIDDLE, Gadget 1"
+			"dpad_west"		"key_press 5, Camera"
+		}
+		"settings"
+		{
+			"layout"		"0"
+			"deadzone"		"9999"
+			"edge_binding_radius"		"24996"
+			"haptic_intensity"		"0"
+			"analog_emulation_period"		"29"
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press X, Melee/Scan"
+			"click"		"key_press V, Melee/Scan"
+		}
+		"settings"
+		{
+			"sensitivity"		"337"
+			"trackball"		"0"
+			"haptic_intensity"		"0"
+			"rotation"		"13"
+			"friction_vert_scale"		"149"
+			"sensitivity_vert_scale"		"73"
+			"mouse_smoothing"		"25"
+			"doubetap_max_duration"		"367"
+			"mouse_dampening_trigger"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W, Move Forward"
+			"dpad_south"		"key_press S, Move Back"
+			"dpad_east"		"key_press D, Move Right"
+			"dpad_west"		"key_press A, Move Left"
+			"edge"		"key_press LEFT_ALT, Walk"
+			"click"		"key_press C, Crouch"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"hold_repeat_inverval"		"99"
+			"deadzone"		"819"
+			"edge_binding_radius"		"20590"
+			"edge_binding_invert"		"1"
+			"haptic_intensity"		"0"
+			"analog_emulation_period"		"25"
+			"analog_emulation_duty_cycle_pct"		"13"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"edge"		"mouse_button RIGHT, Aim"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"9998"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"mouse_button LEFT, Fire"
+			"edge"		"mouse_button LEFT, Fire"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"sensitivity"		"41"
+			"haptic_intensity"		"0"
+			"sensitivity_vert_scale"		"88"
+			"mouse_smoothing"		"40"
+			"mouse_dampening_trigger"		"3"
+			"gyro_axis"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"four_buttons"
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"dpad"
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"absolute_mouse"
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"dpad"
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"key_press G, Gadget 2"
+		}
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"touch_menu"
+		"settings"
+		{
+			"touch_menu_button_count"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press Z, Ping"
+			"dpad_east"		"key_press B, Fire Mode"
+			"dpad_west"		"key_press 6, Drone"
+		}
+		"settings"
+		{
+			"layout"		"0"
+			"deadzone"		"9997"
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_y"		"key_press 7, Vote"
+		}
+	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"joystick_move"
+	}
+	"group"
+	{
+		"id"		"16"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press Z, Ping"
+		}
+		"settings"
+		{
+			"sensitivity"		"345"
+			"trackball"		"0"
+			"haptic_intensity"		"0"
+			"rotation"		"13"
+			"friction_vert_scale"		"149"
+			"sensitivity_vert_scale"		"74"
+			"mouse_smoothing"		"25"
+			"doubetap_max_duration"		"371"
+			"mouse_dampening_trigger"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"17"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W"
+			"dpad_south"		"key_press S"
+			"dpad_east"		"key_press D"
+			"dpad_west"		"key_press A"
+			"edge"		"key_press LEFT_ALT, Walk"
+			"click"		"key_press LEFT_CONTROL, Prone"
+		}
+		"settings"
+		{
+			"deadzone"		"819"
+			"edge_binding_radius"		"20599"
+			"edge_binding_invert"		"1"
+			"haptic_intensity"		"0"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		""
+		"group_source_bindings"
+		{
+			"0"		"button_diamond active"
+			"8"		"button_diamond inactive"
+			"9"		"button_diamond inactive"
+			"10"		"button_diamond inactive modeshift"
+			"14"		"button_diamond active modeshift"
+			"1"		"left_trackpad active"
+			"7"		"left_trackpad inactive"
+			"12"		"left_trackpad inactive modeshift"
+			"13"		"left_trackpad active modeshift"
+			"2"		"right_trackpad active"
+			"16"		"right_trackpad active modeshift"
+			"3"		"joystick active"
+			"15"		"joystick inactive"
+			"17"		"joystick active modeshift"
+			"4"		"left_trigger active"
+			"11"		"left_trigger active modeshift"
+			"5"		"right_trigger active"
+			"6"		"gyro active"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"button_back_left"		"key_press LEFT_SHIFT, Run"
+				"button_escape"		"key_press ESCAPE, Menu"
+				"button_menu"		"key_press TAB, Scoreboard"
+				"left_bumper"		"key_press Q, Lean"
+				"right_bumper"		"key_press E, Lean"
+				"button_back_right"		"mode_shift right_trackpad 16"
+				"button_back_right"		"mode_shift button_diamond 14"
+				"button_back_right"		"mode_shift left_trackpad 13"
+				"button_back_right"		"mode_shift joystick 17"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+}
