@@ -10,10 +10,10 @@
 		"mode"		"four_buttons"
 		"bindings"
 		{
-			"button_a"		"key_press SPACE, Navigate"
+			"button_A"		"key_press SPACE, Navigate"
 			"button_B"		"key_press R, Reload"
 			"button_X"		"key_press F, Interact"
-			"button_y"		"key_press PERIOD, Weapon"
+			"button_Y"		"key_press PERIOD, Weapon"
 		}
 		"settings"
 		{
@@ -53,15 +53,15 @@
 		}
 		"settings"
 		{
-			"sensitivity"		"337"
-			"trackball"		"0"
+			"sensitivity"		"249"
 			"haptic_intensity"		"0"
 			"rotation"		"13"
+			"friction"		"3"
 			"friction_vert_scale"		"149"
 			"sensitivity_vert_scale"		"73"
-			"mouse_smoothing"		"25"
+			"mouse_smoothing"		"0"
+			"mouse_move_threshold"		"1"
 			"doubetap_max_duration"		"367"
-			"mouse_dampening_trigger"		"3"
 		}
 	}
 	"group"
@@ -123,12 +123,14 @@
 		"mode"		"absolute_mouse"
 		"settings"
 		{
-			"sensitivity"		"41"
+			"sensitivity"		"54"
 			"haptic_intensity"		"0"
 			"sensitivity_vert_scale"		"88"
-			"mouse_smoothing"		"40"
-			"mouse_dampening_trigger"		"3"
+			"mouse_smoothing"		"35"
 			"gyro_axis"		"1"
+		}
+		"gameactions"
+		{
 		}
 	}
 	"group"
@@ -163,9 +165,6 @@
 		{
 			"click"		"key_press G, Gadget 2"
 		}
-		"gameactions"
-		{
-		}
 	}
 	"group"
 	{
@@ -198,7 +197,7 @@
 		"mode"		"four_buttons"
 		"bindings"
 		{
-			"button_y"		"key_press 7, Vote"
+			"button_Y"		"key_press 7, Vote"
 		}
 	}
 	"group"
@@ -216,15 +215,14 @@
 		}
 		"settings"
 		{
-			"sensitivity"		"345"
-			"trackball"		"0"
+			"sensitivity"		"242"
 			"haptic_intensity"		"0"
 			"rotation"		"13"
+			"friction"		"3"
 			"friction_vert_scale"		"149"
 			"sensitivity_vert_scale"		"74"
 			"mouse_smoothing"		"25"
 			"doubetap_max_duration"		"371"
-			"mouse_dampening_trigger"		"3"
 		}
 	}
 	"group"
@@ -255,9 +253,6 @@
 		"bindings"
 		{
 			"click"		"mouse_button MIDDLE, Gadget 1"
-		}
-		"gameactions"
-		{
 		}
 	}
 	"preset"
