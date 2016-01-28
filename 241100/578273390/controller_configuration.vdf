@@ -48,8 +48,8 @@
 		"mode"		"absolute_mouse"
 		"bindings"
 		{
-			"click"		"key_press X, Melee/Scan"
-			"click"		"key_press V, Melee/Scan"
+			"click"		"key_press Z, Ping/Scan"
+			"click"		"key_press X, Ping/Scan"
 		}
 		"settings"
 		{
@@ -128,9 +128,6 @@
 			"sensitivity_vert_scale"		"88"
 			"mouse_smoothing"		"35"
 			"gyro_axis"		"1"
-		}
-		"gameactions"
-		{
 		}
 	}
 	"group"
@@ -211,7 +208,7 @@
 		"mode"		"absolute_mouse"
 		"bindings"
 		{
-			"click"		"key_press Z, Ping"
+			"click"		"key_press V, Melee"
 		}
 		"settings"
 		{
@@ -253,6 +250,9 @@
 		"bindings"
 		{
 			"click"		"mouse_button MIDDLE, Gadget 1"
+		}
+		"gameactions"
+		{
 		}
 	}
 	"preset"
